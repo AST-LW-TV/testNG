@@ -7,9 +7,11 @@
 - [pages](https://github.com/AST-LW-TV/testNG/tree/main/testNG/src/test/java/utilities/pages)
     - [HomePage Class](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/pages/HomePage.java) - Home page functionalities
     - [LoginPage Class](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/pages/LoginPage.java) - Login page functionalities
-- screenshots
-    - Screenshot images, when succeeded and failed
-    - ![Alt success](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/screenshot/success_1.png)
+- [screenshots](https://github.com/AST-LW-TV/testNG/tree/main/testNG/src/test/java/utilities/screenshot)
+    - When Succeeded <br/>
+    ![](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/screenshot/success_1.png)
+    - When Failed <br/>
+    ![](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/screenshot/errorLogin_3.png)
 
 - #### [BrowserSetUp](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/BrowserSetUp.java)
 
@@ -17,7 +19,7 @@
     - Navigates to the specified URL
     - returns the driver element
 
-#### [PageReference](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/PageReference.java)
-- Concept of Page-Object Model
+- #### [PageReference](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/PageReference.java)
+  - Concept of Page-Object Model
 
 #### 
