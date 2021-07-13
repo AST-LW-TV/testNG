@@ -10,7 +10,7 @@ import utilities.pages.HomePage;
 import utilities.pages.LoginPage;
 
 @Listeners(Listener.class)
-public class Login {
+public class LoginTest {
     private WebDriver driver;
     private BrowserSetUp browserSetUp;
     private HomePage homePage;
