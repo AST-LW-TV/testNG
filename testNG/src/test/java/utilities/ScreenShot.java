@@ -8,9 +8,8 @@ import org.openqa.selenium.WebDriver;
 import java.io.File;
 import java.io.IOException;
 
-/*
-    screen shot functionality
- */
+
+// screen shot functionality
 public class ScreenShot {
     public static void TakeScreenShot(WebDriver driver, String fileName) {
         try {

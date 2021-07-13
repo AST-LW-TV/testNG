@@ -4,6 +4,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+// browser set up and navigating to the specified url
 public class BrowserSetUp {
     private WebDriver driver;
 

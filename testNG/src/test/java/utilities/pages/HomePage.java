@@ -5,6 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import utilities.PageReference;
 
+// Home page
 public class HomePage extends PageReference {
     private WebDriver driver;
 
