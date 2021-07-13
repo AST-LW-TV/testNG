@@ -9,10 +9,8 @@
     - [LoginPage Class](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/pages/LoginPage.java) - Login page functionalities
 - [screenshots](https://github.com/AST-LW-TV/testNG/tree/main/testNG/src/test/java/utilities/screenshot)
     - When Succeeded
-    <p>&nbsp;</p>
     ![](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/screenshot/success_1.png) <br/>
-    - When Failed 
-    <p>&nbsp;</p>
+    - When Failed
     ![](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/screenshot/errorLogin_3.png)
 
 - #### [BrowserSetUp](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/BrowserSetUp.java)
