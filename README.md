@@ -10,8 +10,10 @@
 - #### [screenshots package](https://github.com/AST-LW-TV/testNG/tree/main/testNG/src/test/java/utilities/screenshot)
     - [Screenshot Class](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/ScreenShot.java) - Screenshot functionality
     - When Succeeded, navigates to home page ... 
+  
     ![](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/screenshot/success_1.png) 
-    - When Failed, exits by taking screenshot ... 
+    - When Failed, exits by taking screenshot ...
+  
     ![](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/screenshot/errorLogin_3.png)
 
 - #### [BrowserSetUp Class](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/BrowserSetUp.java)
