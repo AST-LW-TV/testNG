@@ -35,4 +35,15 @@
 
 ```
 mvn -P LoginTests test  
-```   
+```
+> **Outcome** -> *Two test cases passes and Two test cases fails*
+- We can run the tests in parallel, by using *parallel* attribute in the [testNG.xml](https://github.com/AST-LW-TV/testNG/blob/main/testNG/testNG.xml)
+```
+<suite name="loginSuite">
+    <test name="loginTest" parallel="methods">
+        <classes>
+            <class name="testscripts.LoginTest"></class>
+        </classes>
+    </test>
+</suite>
+```
