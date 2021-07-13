@@ -1,5 +1,30 @@
 # TestNG
 
+## Project Structure
+
+```
++-- testNG
+    +-- test
+        +-- java 
+            +-- testscripts
+                +-- LoginTest.java 
+            +-- utilities
+                +-- pages 
+                    +-- HomePage.java
+                    +-- LoginPage.java
+                +-- screenshot
+                    +-- errorLogin_3.png
+                    +-- errorLogin_4.png
+                    +-- success_1.png
+                    +-- success_2.png
+                +-- BrowserSetUp.java
+                +-- Listener.java
+                +-- PageReference.java
+                +-- ScreenShot.java
+    +-- pom.xml
+    +-- testNG.xml
+```
+
 ## Walkthrough
 
 ### [utilities package](https://github.com/AST-LW-TV/testNG/tree/main/testNG/src/test/java/utilities)
@@ -8,7 +33,7 @@
     - [HomePage Class](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/pages/HomePage.java) - Home page functionalities
     - [LoginPage Class](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/pages/LoginPage.java) - Login page functionalities
 - #### [screenshots package](https://github.com/AST-LW-TV/testNG/tree/main/testNG/src/test/java/utilities/screenshot)
-    - [Screenshot Class](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/ScreenShot.java) - Screenshot functionality
+    - [ScreenShot Class](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/ScreenShot.java) - Screenshot functionality
     - When Succeeded, navigates to home page ... 
   
     ![](https://github.com/AST-LW-TV/testNG/blob/main/testNG/src/test/java/utilities/screenshot/success_1.png) 
