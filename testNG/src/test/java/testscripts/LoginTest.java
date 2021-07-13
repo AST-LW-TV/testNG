@@ -39,6 +39,7 @@ public class LoginTest {
     // sets the browser ...
     @BeforeMethod
     public void setUp(ITestContext context) {
+        System.out.println("++++++++++Starting the Test...++++++++++");
         browserSetUp = new BrowserSetUp("http://practice.automationtesting.in/");
         driver = browserSetUp.getDriver();
         context.setAttribute("WebDriver", driver); // sets the context variable for driver to be used in listener
@@ -56,14 +57,14 @@ public class LoginTest {
     }
 
     // test for valid login credentials
-    @Test(dataProvider = "validLoginCredentials")
+    @Test(dataProvider = "validLoginCredentials", priority = 0)
     public void validLoginTest(String username, String password) {
         error = steps(username, password, "valid");
         Assert.assertEquals(false, error);
     }
 
     // test for invalid login credentials
-    @Test(dataProvider = "invalidLoginCredentials")
+    @Test(dataProvider = "invalidLoginCredentials", priority = 1)
     public void invalidLoginTest(String username, String password) {
         error = steps(username, password, "invalid");
         Assert.assertEquals(false, error); // test fails with invalid credentials
@@ -73,5 +74,6 @@ public class LoginTest {
     @AfterMethod
     public void tearDown() {
         browserSetUp.quitDriver();
+        System.out.println("++++++++++Ending the Test...++++++++++");
     }
 }
